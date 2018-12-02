@@ -1,0 +1,27 @@
+.antd-damnx-header-index-account {
+    cursor: pointer;
+    padding: 0 10px;
+    display: inline-block;
+    transition: all .3s;
+    height: 100%;
+}
+
+.antd-damnx-header-index-account:hover{
+    background: rgba(0,0,0,.025);
+}
+
+.antd-damnx-header-index-account .ant-avatar-image {
+    width: 23px;
+    height: 23px;
+    margin-top: -10px;
+}
+
+.antd-damnx-components-global-header-index-name{
+    padding: 0px 5px
+}
+
+@media only screen and (max-width: 768px){
+    .antd-damnx-components-global-header-index-name{
+        display: none;
+    }
+}

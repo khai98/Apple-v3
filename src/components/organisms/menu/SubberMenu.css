@@ -1,0 +1,32 @@
+.sidebar-new-quote-button-plus {
+    color: #27d974;
+}
+.damnx-siderMenu-menu  .sidebar-new-quote-button-wrapper {
+    height: 70px !important;
+    line-height: 70px !important;
+}
+
+.sidebar-new-quote-button {
+    display: inline-block;
+    color: #27d974;
+    border: 1px solid #27d974;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sidebar-new-quote-button-collapsed:hover{
+    background-color: #27d974 !important;
+}
+
+.sidebar-new-quote-button-collapsed:hover >a .sidebar-new-quote-button-plus{
+    color: #fff !important;
+}

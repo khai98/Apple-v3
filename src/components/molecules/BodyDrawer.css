@@ -1,0 +1,50 @@
+.ant-drawer-content-wrapper{
+    height: calc(100% - 50px);
+    margin-top: 50px;
+}
+
+.left-container{
+    width: 37%;
+    float: left;
+    padding: 0 15px;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.review-container{
+    width: 63%;
+    float: right;
+    background-color: #fafbfc;
+    margin-top: 0;
+    height: -moz-calc(100% - 120px);
+    height: -webkit-calc(100% - 120px);
+    height: calc(100% - 120px);
+    overflow-y: auto;
+    border-left: 1px solid #d8e5ef;
+    padding: 2px 15px 15px;
+}
+
+.footer-container{
+    position: absolute;
+    bottom: 50px;
+    height: 68px;
+    width: 100%;
+    background-color: #0093ee;
+    color: #fff;
+    padding: 13px;
+    padding-right: 49px !important;
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 21px;
+    box-shadow: 2px -1px 6px 0 rgba(0,0,0,.4);
+}
+
+.ant-drawer-close{
+    right: auto !important;
+}
+
+.ant-drawer-close-x{
+    width: 33px;
+    height: 33px;
+    line-height: 38px;
+}

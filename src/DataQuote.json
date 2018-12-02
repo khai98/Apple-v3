@@ -1,0 +1,34 @@
+[
+  {
+    "id" : 1,
+    "FeeCode" : "O-INLAND 20'" ,
+    "FeeName" : "Inland Freight and Services at Origin" ,
+    "Comment" : "Per Container" ,
+    "Units" : 1 ,
+    "UnitPrice" : "CNY  800.00",
+    "Amount" : "CNY  800.00" ,
+    "FinalAmount" : "USD 114.96",
+    "port" : "CNFCN,Fangcun",
+    "cityFrom" : "Guangdong",
+    "door" : "CNSZX,Shenzhen",
+    "cityTo" : "Guangdong",
+    "Subtotal": 230.24
+  },
+
+  {
+    "id" : 2,
+    "FeeCode" : "O-INLAND 20'" ,
+    "FeeName" : "Ocean Freight Cost" ,
+    "Comment" : "Per Container" ,
+    "Units" : 1 ,
+    "UnitPrice" : "CNY  800.00",
+    "Amount" : "CNY  800.00",
+    "FinalAmount" : "USD 114.96",
+    "port" : "CNSZX,Shenzhen",
+    "cityFrom" : "Guangdong",
+    "door" : "USORF,Norfolk",
+    "cityTo" : "VA",
+    "Subtotal": 2700.00
+  }
+
+]

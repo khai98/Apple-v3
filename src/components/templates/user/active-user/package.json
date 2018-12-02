@@ -1,0 +1,7 @@
+{
+    "name": "ActiveUser",
+    "version": "1.0.2",
+    "private": true,
+    "main": "./ActiveUser.js"
+  }
+  

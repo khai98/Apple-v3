@@ -1,0 +1,10 @@
+{
+    "config": {
+        "apiKey": "AIzaSyDO19w8d1zTGki6bPcWCwLdphCJbNdhl0A",
+        "authDomain": "tienvmtest.firebaseapp.com",
+        "databaseURL": "https://tienvmtest.firebaseio.com",
+        "projectId": "tienvmtest",
+        "storageBucket": "tienvmtest.appspot.com",
+        "messagingSenderId": "240582230115"
+    }
+}

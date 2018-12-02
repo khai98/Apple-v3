@@ -1,0 +1,103 @@
+
+
+.div-hidden {
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.6s, visibility 0.6s;
+}
+.div-show {
+    opacity :1;
+    visibility: visible;
+    transition:opacity 0.6s, visibility 0.6s;
+}
+.user-active-user-right {
+    background: #fff;
+    height: 100vh;
+    padding: 120px 20px;
+    
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    overflow:auto;
+}
+
+.user-active-user-left {
+    padding: 120px;
+}
+.user-active-user-right-title {
+    font-size: 20px;
+    color: rgba(0,0,0,.85);
+    font-family: Myriad Pro,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+    text-align: center
+}
+
+.user-active-user-right-tabs .ant-tabs-bar {
+    border: none;
+}
+
+.user-active-user-right-tabs-tabpane {
+    padding: 0px 16px;
+}
+.user-active-user-left-logo {
+    width: 150px;
+    margin-bottom: 15px
+}
+
+.user-active-user-left-logo-title {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Muli,Roboto,"Helvetica",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.04;
+}
+
+.user-active-user-left-description {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Muli,Roboto,"Helvetica",Arial,sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .user-active-user-left {
+        padding: 40px;
+    }
+    .user-active-user-right {
+        padding: 40px 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .user-active-user .ant-row {
+      padding: 0px 15px
+  }
+  .user-active-user-left-logo-title {
+      font-size: 20px
+ }
+ .user-active-user-left-description {
+     display: none
+ }
+
+ .user-active-user-left {
+    padding: 20px;
+ }
+ .user-active-user-right {
+     height: auto;
+ }
+}
+.user-active-user-active-user-form-footer {
+    width: 100%;
+    text-align: center
+}
+
+.user-active-user-active-user-form-footer span {
+   float: left;
+   width: 100%;
+}
+
+.user-active-user-active-user-form-footer a {
+    float: left;
+    width: 100%;
+ }
+ 

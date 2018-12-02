@@ -1,0 +1,103 @@
+
+
+.div-hidden {
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.6s, visibility 0.6s;
+}
+.div-show {
+    opacity :1;
+    visibility: visible;
+    transition:opacity 0.6s, visibility 0.6s;
+}
+.user-register-right {
+    background: #fff;
+    height: 100vh;
+    padding: 120px 20px;
+    
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    overflow:auto;
+}
+
+.user-register-left {
+    padding: 120px;
+}
+.user-register-right-title {
+    font-size: 20px;
+    color: rgba(0,0,0,.85);
+    font-family: Myriad Pro,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+    text-align: center
+}
+
+.user-register-right-tabs .ant-tabs-bar {
+    border: none;
+}
+
+.user-register-right-tabs-tabpane {
+    padding: 0px 16px;
+}
+.user-register-left-logo {
+    width: 150px;
+    margin-bottom: 15px
+}
+
+.user-register-left-logo-title {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Muli,Roboto,"Helvetica",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.04;
+}
+
+.user-register-left-description {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Muli,Roboto,"Helvetica",Arial,sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .user-register-left {
+        padding: 40px;
+    }
+    .user-register-right {
+        padding: 40px 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .user-register .ant-row {
+      padding: 0px 15px
+  }
+  .user-register-left-logo-title {
+      font-size: 20px
+ }
+ .user-register-left-description {
+     display: none
+ }
+
+ .user-register-left {
+    padding: 20px;
+ }
+ .user-register-right {
+     height: auto;
+ }
+}
+.user-register-register-form-footer {
+    width: 100%;
+    text-align: center
+}
+
+.user-register-register-form-footer span {
+   float: left;
+   width: 100%;
+}
+
+.user-register-register-form-footer a {
+    float: left;
+    width: 100%;
+ }
+ 

@@ -1,0 +1,141 @@
+.leg-table .leg-route {
+    padding: 10px 15px;
+    color: #373848;
+    font-size: 15px;
+    line-height: 1.2;
+    background: #fff6d9;
+}
+
+table {
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    font-variant: normal;
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+
+}
+
+.leg-table .subtotal {
+    text-align: right;
+    display: block;
+    font-size: 13px;
+    border-top: 1px solid #fffcea;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+
+.quote-tile .carbon-emission {
+    font-size: 12px;
+    margin-left: 14px;
+    margin-bottom: 5px;
+}
+
+.leg-table .leg-fees-table {
+    width: 100%;
+}
+
+.subtotal-label{
+    margin-right: 75px
+}
+.subtotal-amount {
+    margin-right: 60px
+}
+
+.leg-fees-table {
+    background-color: #fffcea;
+}
+
+.subtotal{
+    background-color: #fffcea;
+}
+.leg-table {
+    margin-left: 150px;
+    margin-right:150px;
+}
+
+.table-td {
+    font-size: 14.5px;
+    line-height: 40px
+}
+
+.table-th {
+    text-align: left;
+    line-height: 20px;
+    width: 80px;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #8dabc4;
+    font-weight: 400;
+    border-top: 1px solid #d8e5ef;
+    border-bottom: 1px solid #d8e5ef;
+}
+
+.th {
+    padding-left: 15px;
+
+}
+.remarks-and-bonds {
+    background: #fffcea;
+    border-top: 1px solid #d8e5ef;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.remarks-and-bonds .remarks {
+    max-height: 130px;
+    overflow-y: auto;
+    line-height: 1.4em;
+    display: block;
+    flex-grow: 2;
+    max-width: 560px;
+}
+.remarks-and-bonds .bonds, .remarks-and-bonds .remarks {
+    vertical-align: top;
+    padding: 15px;
+    font-size: 11px;
+}
+.carbon-emission {
+    padding: 10px 15px;
+    color: #373848;
+    font-size: 15px;
+    line-height: 1.2;
+    background: #fffcea;
+}
+
+.total {
+
+    padding: 10px 15px;
+    color: #373848;
+    font-size: 15px;
+    line-height: 1.2;
+    background: #fff6d9;
+}
+
+.subtotal-label {
+    text-align: right;
+    font-weight: 700;
+    margin-left: 846px;
+}
+.total-amount {
+    text-align: right;
+    font-weight: 700;
+    margin-right: 10px;
+}

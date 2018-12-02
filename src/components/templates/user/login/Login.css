@@ -1,0 +1,113 @@
+.user-login {
+    height: 100%;
+    background: url('http://react-material.fusetheme.com/assets/images/backgrounds/dark-material-bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+}
+
+.div-hidden {
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.6s, visibility 0.6s;
+}
+.div-show {
+    opacity :1;
+    visibility: visible;
+    transition:opacity 0.6s, visibility 0.6s;
+}
+.user-login-right {
+    background: #fff;
+    height: 100vh;
+    padding: 120px 20px;
+    
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    overflow:auto;
+}
+
+.user-login-left {
+    padding: 120px;
+}
+.user-login-right-title {
+    font-size: 20px;
+    color: rgba(0,0,0,.85);
+    font-family: Myriad Pro,Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+    text-align: center;
+    margin-bottom: 35px
+}
+
+.user-login-right-tabs .ant-tabs-bar {
+    border: none;
+}
+
+.user-login-right-tabs-tabpane {
+    padding: 0px 16px;
+}
+.user-login-left-logo {
+    width: 150px;
+    margin-bottom: 15px
+}
+
+.user-login-left-logo-title {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Muli,Roboto,"Helvetica",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.04;
+}
+
+.user-login-left-description {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Muli,Roboto,"Helvetica",Arial,sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .user-login-left {
+        padding: 40px;
+    }
+    .user-login-right {
+        padding: 40px 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .user-login .ant-row {
+      padding: 0px 15px
+  }
+  .user-login-left-logo-title {
+      font-size: 20px
+ }
+ .user-login-left-description {
+     display: none
+ }
+
+ .user-login-left {
+    padding: 20px;
+ }
+ .user-login-right {
+     height: auto;
+ }
+}
+.user-login-login-form-footer {
+    width: 100%;
+    text-align: center
+}
+
+.user-login-login-form-footer span {
+   float: left;
+   width: 100%;
+}
+
+.user-login-login-form-footer a {
+    float: left;
+    width: 100%;
+ }
+ 

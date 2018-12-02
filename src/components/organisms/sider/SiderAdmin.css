@@ -1,0 +1,46 @@
+
+.antd-damnx-components-sider-menu-index-fixSiderbar .ant-layout-sider-children{
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex: 0 0 200px;
+    max-width: 200px;
+    min-width: 200px;
+    width: 200px;
+}
+
+.damnx-siderMenu-menu{
+    background: transparent;
+    background: transparent
+}
+.ant-damnx-sider-admin-logo-text {
+    text-transform: uppercase;
+    color: #ee9421 !important;
+}
+#ant-layout-sider-damnx {
+    overflow: hidden;
+}
+
+#ant-layout-sider-damnx-collapsedWidth {
+    overflow: hidden;
+}
+
+#ant-layout-sider-damnx-collapsedWidth .ant-menu-inline-collapsed > .ant-menu-item, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+    padding: 0 20px !important;
+}
+
+#ant-layout-sider-damnx-collapsedWidth .ant-menu-inline-collapsed {
+    width: 60px;
+}
+
+.sider-admin-collapse-trigger {
+    float: right;
+    margin-top: 9%;
+    color: #ffffff;
+    padding-right: 17px;
+    font-size: 17px;
+}
+.icon-burger-button-damnx {
+    color: #fff;
+    cursor: pointer;
+}

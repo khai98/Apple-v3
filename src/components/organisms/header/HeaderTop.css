@@ -1,0 +1,63 @@
+#ant-damnx-header{
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    height: 50px;
+    line-height: 50px
+}
+
+#ant-damnx-header .antd-damnx-components-top-nav-header-index-logo {
+    width: auto;
+    height: 50px;
+    position: relative;
+    line-height: 50px;
+    transition: all .3s;
+    overflow: hidden;
+    float: left;
+}
+
+#ant-damnx-header .antd-damnx-components-top-nav-header-index-logo img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+}
+
+#ant-damnx-header .antd-damnx-components-top-nav-header-index-logo h1{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 0 0 12px;
+    font-weight: 400;
+}
+
+#ant-damnx-header .antd-damnx-components-top-nav-header-index-left{
+  float: left;
+}
+
+#ant-damnx-header .antd-damnx-components-top-nav-header-index-left .ant-menu
+{
+    float: left;
+}
+.ant-damnx-header-mobile {
+    background: #ffff;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    padding: 0px 10px
+}
+.ant-damnx-header-mobile .antd-damnx-components-header-index-header{
+    box-shadow: none
+}
+
+.ant-damnx-fixed-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+    transition: width .2s;
+}
+
+.antd-damnx-components-global-header-index-right {
+    float: right;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px
+}
